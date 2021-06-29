@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bbc-React-codingtest/static/css/main.d1f1fc31.chunk.css",
+    "main.css": "/bbc-React-codingtest/static/css/main.846d1b2e.chunk.css",
     "main.js": "/bbc-React-codingtest/static/js/main.6609c8eb.chunk.js",
     "main.js.map": "/bbc-React-codingtest/static/js/main.6609c8eb.chunk.js.map",
     "runtime-main.js": "/bbc-React-codingtest/static/js/runtime-main.cf4dc5d0.js",
@@ -8,13 +8,13 @@
     "static/js/2.51e5d173.chunk.js": "/bbc-React-codingtest/static/js/2.51e5d173.chunk.js",
     "static/js/2.51e5d173.chunk.js.map": "/bbc-React-codingtest/static/js/2.51e5d173.chunk.js.map",
     "index.html": "/bbc-React-codingtest/index.html",
-    "static/css/main.d1f1fc31.chunk.css.map": "/bbc-React-codingtest/static/css/main.d1f1fc31.chunk.css.map",
+    "static/css/main.846d1b2e.chunk.css.map": "/bbc-React-codingtest/static/css/main.846d1b2e.chunk.css.map",
     "static/js/2.51e5d173.chunk.js.LICENSE.txt": "/bbc-React-codingtest/static/js/2.51e5d173.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cf4dc5d0.js",
     "static/js/2.51e5d173.chunk.js",
-    "static/css/main.d1f1fc31.chunk.css",
+    "static/css/main.846d1b2e.chunk.css",
     "static/js/main.6609c8eb.chunk.js"
   ]
 }
