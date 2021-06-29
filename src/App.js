@@ -14,7 +14,6 @@ function App() {
     <>
       <Router>
           <Header/>
-          <Article1/>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={Article1}/>
           <Route path={process.env.PUBLIC_URL + '/article2'} component={Article2}/>
