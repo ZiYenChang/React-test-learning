@@ -1,0 +1,99 @@
+.rankingBox{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+
+.ranking-container{
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16), 0 6px 15px 0 rgba(0, 0, 0, 0.10) inset;
+}
+
+.rankingForm h3{
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0;
+    font-size: 24px;
+}
+
+.rank-sequence{
+    padding: 3px;
+    text-align: center;
+}
+
+.rank-sequence label{
+    padding: 5px 10px;
+    border-radius: 1px;
+}
+.articleRank{
+    vertical-align: 6px;
+}
+
+.rank-num{
+ font-weight: bold;
+ margin: 0;
+ font-size: 40px;
+ padding-right: 3rem;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+sup{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttongroup{
+    padding: 0 1rem;
+    vertical-align: 5px;
+}
+
+.buttongroup button{
+    margin-left: 1rem;
+    border: none;
+     color:rgb(112, 149, 253);
+    cursor: pointer;
+    font-size: 25px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    transition: color 0.1s, text-shadow 0.2s;
+}
+
+span button:hover{
+    color:black;
+    text-shadow: none;
+}
+
+.single-button1 button{
+    margin-left: 3.2rem;
+}
+
+.single-button4{
+    margin-left: 0;
+    margin-right: 2.3rem;
+}
+
+.submit-button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    width: 100%;
+    margin: 0.5rem auto 1rem auto;
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.submit-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.message{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 1rem;
+    padding: 0;
+}
