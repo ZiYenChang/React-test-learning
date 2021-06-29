@@ -96,13 +96,35 @@ span button:hover{
     margin-bottom: 1rem;
     padding: 0;
 }
+@media screen and (max-width: 768px) and (min-width:481px){
+    .rankingBox{
+        font-size: 14px;
+        margin-bottom: 1rem;;
+    }
+    .ranking-container{
+        padding: 1rem 2rem;
+    }
+    
+    .rankingForm h3{
+        margin: 0.5rem 0;
+        font-size: 20px;
+    }
 
+    .rank-num{
+        font-size: 32px;
+       }
+       
+    sup{
+        font-size: 16px;
+    }
+
+    
+  }
 @media screen and (max-width: 480px) {
     .rankingBox{
         font-size: 14px;
         margin-bottom: 1rem;
-    }
-    
+    }    
     
     .ranking-container{
         padding: 1rem 1rem;
@@ -126,62 +148,25 @@ span button:hover{
     }
     
     .rank-num{
-     font-weight: bold;
-     margin: 0;
      font-size: 28px;
-     padding-right: 1rem;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
     sup{
         font-size: 12px;
-        font-weight: normal;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
-    .buttongroup{
-        padding: 0 1rem;
-        vertical-align: 5px;
-    }
     
     .buttongroup button{
         margin-left: 5px;
-        border: none;
-         color:rgb(112, 149, 253);
-        cursor: pointer;
         font-size: 20px;
-        text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
-        transition: color 0.1s, text-shadow 0.2s;
-    }
-    
-    span button:hover{
-        color:black;
-        text-shadow: none;
     }
     
     .single-button1 button{
-        margin-left: 1.5rem;
+        margin-left: 1.8rem;
     }
     
     .single-button4{
-        margin-right: 1.5rem;
-    }
-    
-    .submit-button{
-        font-size: 14px;
-        font-weight: 500;
-        padding: 5px 10px;
-        width: 100%;
-        margin: 0.5rem auto 1rem auto;
-        cursor: pointer;
-        border: solid black 1px;
-        border-radius: 6px;
-        transition: background-color 0.2s, color 0.2s;
-    }
-    
-    .submit-button:hover{
-        background-color: black;
-        color: white;
+        margin-right: 1.8rem;
     }
     
   }

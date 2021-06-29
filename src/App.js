@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+    <div className="appContent">
       <Router>
           <Header/>
         <Switch>
@@ -23,6 +24,7 @@ function App() {
         < RankingBox />
           <Footer/>
       </Router>
+      </div>
     </>
   );
 }

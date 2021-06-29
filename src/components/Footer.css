@@ -1,6 +1,7 @@
 .footer{
     padding: 4rem 8rem 1rem 8rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .subs p, small{
@@ -22,6 +23,14 @@
     .footer{
         padding: 4rem 6rem 1rem 6rem;
     }
+    .subscription-heading{
+        font-size: 18px;
+    }
+    
+    .subscription-text{
+        font-size: 14px;
+        padding: 0 0 1rem 0;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -30,7 +39,7 @@
     }
 
     .subscription-heading{
-        font-size: 10px;
+        font-size: 16px;
     }
     
     .subscription-text{

@@ -1,6 +1,6 @@
 .ArticleItem{
     padding: 0 12rem 2rem 12rem;
-    
+
 }
 
 h1 {
@@ -84,6 +84,7 @@ ul{
 
     h1 {
         font-size: 35px;
+        padding: 1rem 0 0 0;
     }
 
     h2 {
@@ -106,5 +107,9 @@ ul{
 
     h2 {
         font-size: 18px;
+    }
+
+    img{
+        width: 90%;
     }
   }
