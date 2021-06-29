@@ -16,9 +16,9 @@ function App() {
           <Header/>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={Article1}/>
-          <Route path={process.env.PUBLIC_URL + '/article2'} component={Article2}/>
-          <Route path={process.env.PUBLIC_URL + '/article3'} component={Article3}/>
-          <Route path={process.env.PUBLIC_URL + '/article4'} component={Article4}/>
+          <Route path='/article2' component={Article2}/>
+          <Route path='/article3' component={Article3}/>
+          <Route path='/article4' component={Article4}/>
         </Switch>
         < RankingBox />
           <Footer/>
